@@ -106,3 +106,7 @@
   font-style: italic;
 }
 
+// TODO: generalize this
+#wmd-quote-button-0, #wmd-image-button-0, #wmd-hr-button-0{
+  display: none !important;
+}
