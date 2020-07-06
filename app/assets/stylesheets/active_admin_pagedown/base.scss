@@ -88,6 +88,10 @@
   list-style: disc !important;
 }
 
+.wmd-preview ol > li {
+  list-style-type: decimal !important;
+}
+
 .wmd-prompt-dialog
   {
   border: 1px solid #999999;
