@@ -22,7 +22,7 @@
 
 .wmd-preview
   {
-  background-color: #c0e0ff;
+  background-color: #dddddd;
 }
 
 .wmd-button-row
@@ -82,6 +82,7 @@
 
 .wmd-preview > p {
   margin: 0 0 10px !important;
+  color: #000000;
 }
 
 .wmd-preview > ul > li {
@@ -90,6 +91,12 @@
 
 .wmd-preview ol > li {
   list-style-type: decimal !important;
+}
+
+.wmd-preview a{
+  color: #666666;
+  text-decoration: none;
+  font-style: italic;
 }
 
 .wmd-prompt-dialog
@@ -109,4 +116,8 @@
 // TODO: generalize this
 #wmd-quote-button-0, #wmd-image-button-0, #wmd-hr-button-0{
   display: none !important;
+}
+
+.title-example{
+  font-size: medium;
 }
